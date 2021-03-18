@@ -1,0 +1,5 @@
+Iframe
+<form #newUserForm="ngForm" (ngSubmit)="onSubmit(newUserForm)">
+    <input type="string" [(ngModel)]="nickName" name="nickName">
+    <button type="submit"> click from child</button>
+</form>
